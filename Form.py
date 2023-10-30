@@ -18,7 +18,7 @@ root.title('Login Form')
 root.geometry('350x500')
 root.configure(bg='#EBD61C')
 
-img = Image.open('Logo_icon.png')
+img = Image.open('Mudasir_Khan_Low.png')
 resized_img = img.resize((70, 70), Image.LANCZOS)
 img = ImageTk.PhotoImage(resized_img)
 img_label = Label(root, image=img)
